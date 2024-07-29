@@ -4,8 +4,8 @@ let numbers = [2, 5, 12, 13, 15, 18, 22];
 
 function isEven() {
     for(let num = 0 ; num < numbers.length ; num++){
-        if(num % 2 === 0){
-            console.log(num + 'は偶数です');
+        if(numbers[num] % 2 === 0){
+            console.log(numbers[num] + 'は偶数です');
         }
     }
 }
